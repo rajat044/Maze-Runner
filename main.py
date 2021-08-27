@@ -13,7 +13,7 @@ opencv_image = None
 marked_image = None
 
 if use_default_image:
-    opencv_image = cv2.imread('maze5.jpg')
+    opencv_image = cv2.imread('defaultmaze.jpg')
 
 elif uploaded_file is not None:
     file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
