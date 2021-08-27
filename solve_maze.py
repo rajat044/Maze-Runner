@@ -117,4 +117,4 @@ def find_shortest_path(img,src,dst):
     path.append((source_x,source_y))
     return path
 
-print(drawPath(cv2.imread('maze.png'),find_shortest_path(cv2.imread('maze.png'), [1,9], [34,87])))
+#print(drawPath(cv2.imread('maze.png'),find_shortest_path(cv2.imread('maze.png'), [1,9], [34,87])))
